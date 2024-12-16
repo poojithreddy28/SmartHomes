@@ -1,0 +1,201 @@
+/* Fixed Navbar */
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content container with scrollable content */
+.scrollable-content {
+  padding-top: 120px; /* Adjust for fixed navbar height */
+  padding: 20px;
+  height: calc(100vh - 120px); /* Full viewport height minus navbar height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Product detail section adjustments */
+.product-detail {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px; /* Adds space between product details and reviews */
+  width: 100%;
+  max-width: 1200px;
+}
+
+.product-detail-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 20px auto 0; /* Adds 20px margin from the top and centers horizontally */
+  display: block; /* Ensures the image behaves like a block element */
+}
+.product-detail-info {
+  max-width: 600px;
+}
+
+.product-detail-info h1 {
+  margin-bottom: 10px;
+}
+
+.product-detail-info p {
+  margin: 5px 0;
+}
+
+/* Reviews section adjustments */
+.product-reviews {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.review-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.review-card h3 {
+  margin-bottom: 5px;
+}
+
+/* Back button adjustments */
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Like section adjustments */
+.like-section {
+  margin-top: 20px;
+}
+
+.like-button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.like-button i {
+  margin-right: 10px;
+}
+
+.like-button.liked {
+  color: red;
+}
+
+.product-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.product-detail-image {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.product-detail-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.quantity-controls button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.add-to-cart-button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #218838;
+}
+
+.like-section {
+  margin-top: 10px;
+}
+
+.like-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.like-button.liked {
+  color: red;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.product-reviews {
+  margin: 20px;
+}
+
+.review-card {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}

@@ -1,0 +1,77 @@
+/* Container for trending products */
+.trending-container {
+    padding: 50px 20px; /* Adjust padding for responsiveness */
+    max-width: 1200px;
+    margin-top: 1200px ;
+    overflow-y: auto; /* Enables vertical scroll if content exceeds viewport */
+}
+
+/* Each section for trending categories */
+.trending-section {
+    margin-bottom: 30px;
+}
+
+/* Flexbox to arrange cards, wraps to the next row if content overflows */
+.trending-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Creates consistent spacing between cards */
+}
+
+/* Styling for each individual card */
+.trending-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px); /* Dynamic width to adjust with screen size */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Image inside each trending card */
+.trending-product-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Ensures the image doesn't take too much space */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Product information inside the card */
+.trending-product-info h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.trending-card p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+/* Make the layout responsive */
+@media (max-width: 992px) {
+    .trending-card {
+        width: calc(50% - 20px); /* Two cards per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .trending-card {
+        width: calc(100% - 20px); /* One card per row on small screens */
+    }
+}
+
+/* Ensure smooth scrolling for the entire page */
+body {
+    overflow-y: scroll;
+}
+
+/* Optional: Add smooth scrolling effect for better UX */
+html {
+    scroll-behavior: smooth;
+}

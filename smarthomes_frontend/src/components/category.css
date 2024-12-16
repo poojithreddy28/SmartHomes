@@ -1,0 +1,111 @@
+/* Remove any background that might be applied globally */
+body {
+    background: none;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Lato:wght@700&display=swap');
+/* Styling for the h2 element */
+.category-container h2 {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for a modern look */
+    font-weight: 700; /* Make it bold */
+    font-size: 36px;  /* Larger font size */
+    color: #007bff;   /* A bright blue color */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    background: none; /* Ensure no background */
+  }
+  
+  /* Grid layout for the product cards */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  /* Product card styling */
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  /* Product name */
+  .product-card h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Product price */
+  .product-price {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Product rating */
+  .product-rating {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  /* Icons for cart and wishlist */
+  .product-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add to Cart Button Styling */
+  .add-to-cart-btn {
+    position: relative;
+    transition: all 0.3s ease;
+    color: #333;
+  }
+  
+  .add-to-cart-btn i {
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Add to Cart Animation */
+  .add-to-cart-btn:hover i {
+    transform: scale(1.2);
+  }
+  
+  .add-to-cart-btn:hover {
+    color: #ff6600;
+  }
+  

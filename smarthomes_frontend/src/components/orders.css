@@ -1,0 +1,138 @@
+/* Fixed Navbar styling */
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Main container gets padding to avoid content overlap with the navbar */
+.order-container {
+  padding-top: 100px; /* Adjust this value to ensure enough space for navbar */
+  padding: 20px;
+  height: calc(100vh - 100px); /* Full viewport height minus navbar height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  width: 100%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* Styling for order list */
+.order-list {
+  margin-top: 20px;
+}
+
+.order-card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.order-card p,
+.order-card h4 {
+  color: #555;
+}
+
+.order-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.order-card ul li {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-details {
+  margin-top: 20px;
+}
+
+.total-price {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cancel-order-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cancel-order-button:hover {
+  background-color: darkred;
+}
+
+/* Notification styles */
+.notification {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1d78d8;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  opacity: 0;
+  animation: fadeInOut 2s ease-in-out forwards;
+}
+
+/* Keyframes for the fade-in and fade-out animation */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  90% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+}

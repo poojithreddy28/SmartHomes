@@ -1,0 +1,94 @@
+.salesperson-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .salesperson-container h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .salesperson-container h2 {
+    font-size: 28px;
+    color: #555;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .order-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-list li {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .order-list li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .order-list p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .order-list button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .order-list button:first-child {
+    background-color: #28a745; /* Green for "Shipped" */
+    color: white;
+  }
+  
+  .order-list button:nth-child(2) {
+    background-color: #dc3545; /* Red for "Cancelled" */
+    color: white;
+  }
+  
+  .order-list button:last-child {
+    background-color: #ffc107; /* Yellow for "Delete" */
+    color: black;
+  }
+  
+  .order-list button:hover {
+    opacity: 0.85;
+  }
+  
+  .order-list button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .message {
+    background-color: #e2f7d4;
+    color: #3c763d;
+    border-left: 6px solid #3c763d;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }

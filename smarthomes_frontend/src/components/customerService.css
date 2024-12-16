@@ -1,0 +1,182 @@
+/* CustomerService.css */
+
+/* Fixed Navbar styling */
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+
+.customer-service-container {
+  margin-top: 100px; /* Adjusted for fixed navbar height */
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  max-width: 100%; /* Increase width of the container */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customer-service-content {
+  width: 100%;
+  max-width: 700px; /* Increase max-width for a wider content area */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  overflow-y: auto;
+  max-height: calc(100vh - 120px); /* Subtracting navbar height + padding */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #333;
+}
+
+.tab-button.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.ticket-form, .status-check-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"],
+.form-group textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.submit-button, .check-status-button {
+  background-color: #080908;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover, .check-status-button:hover {
+  background-color: #040404;
+}
+
+.ticket-number, .ticket-status {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #007bff;
+}
+
+.file-preview {
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.styled-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.styled-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-button, .check-status-button {
+  background-color: #08090a;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover, .check-status-button:hover {
+  background-color: #020304;
+}
+
+.ticket-status-container {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.ticket-details {
+  font-size: 16px;
+  color: #333;
+}
+
+.ticket-details p {
+  margin: 10px 0;
+}
+
+
+.decision {
+}

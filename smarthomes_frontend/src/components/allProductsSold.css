@@ -1,0 +1,75 @@
+/* Container for the entire component */
+.products-sold-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .products-sold-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the table */
+  .products-sold-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Table header styling */
+  .products-sold-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Table data cell styling */
+  .products-sold-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Even row background color */
+  .products-sold-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect for table rows */
+  .products-sold-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive design - make the table scroll horizontally on small screens */
+  @media (max-width: 768px) {
+    .products-sold-container {
+      padding: 10px;
+    }
+  
+    .products-sold-table {
+      font-size: 14px;
+    }
+  
+    .products-sold-container h2 {
+      font-size: 20px;
+    }
+  
+    /* Add horizontal scrolling for small screens */
+    .products-sold-container {
+      overflow-x: auto;
+    }
+  }

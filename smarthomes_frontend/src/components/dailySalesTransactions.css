@@ -1,0 +1,74 @@
+/* Container for the entire component */
+.daily-sales-transactions-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .daily-sales-transactions-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the table */
+  .daily-sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  /* Table header styling */
+  .daily-sales-table th {
+    background-color: #1b9e77;
+    color: white;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Table data cell styling */
+  .daily-sales-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Even row background color */
+  .daily-sales-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect for table rows */
+  .daily-sales-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive design - make the table scroll horizontally on small screens */
+  @media (max-width: 768px) {
+    .daily-sales-transactions-container {
+      padding: 10px;
+    }
+  
+    .daily-sales-table {
+      font-size: 14px;
+    }
+  
+    .daily-sales-transactions-container h2 {
+      font-size: 20px;
+    }
+  
+    /* Add horizontal scrolling for small screens */
+    .daily-sales-transactions-container {
+      overflow-x: auto;
+    }
+  }
