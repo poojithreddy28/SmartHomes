@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <!-- Smart Lightings -->
+    <product>
+        <id>1</id>
+        <name>AuraBrightRGB</name>
+        <price>49.99</price>
+        <category>Smart Lightings</category>
+        <description>A futuristic smart LED light bulb with a spherical top.</description>
+        <imagePath>/images/All/AuraBrightRGB.jpeg</imagePath>
+        <discount>10</discount>
+        <warranty>2</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>50</quantity>
+    </product>
+    <product>
+        <id>2</id>
+        <name>CyberShield360</name>
+        <price>249.99</price>
+        <category>Smart Doorlocks</category>
+        <description>A futuristic round smart door lock with a fingerprint sensor.</description>
+        <imagePath>/images/All/CyberShield360.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>5</warranty>
+        <manufacturerRebate>10</manufacturerRebate>
+        <quantity>30</quantity>
+    </product>
+
+    <!-- Smart Doorbells -->
+    <product>
+        <id>3</id>
+        <name>VisionPro5000</name>
+        <price>149.99</price>
+        <category>Smart Doorbells</category>
+        <description>Sleek rectangular design with a black glossy surface.</description>
+        <imagePath>/images/All/VisionPro5000.jpeg</imagePath>
+        <discount>15</discount>
+        <warranty>2</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>40</quantity>
+    </product>
+    <product>
+        <id>4</id>
+        <name>RingGuardX1</name>
+        <price>199.99</price>
+        <category>Smart Doorbells</category>
+        <description>Round smart doorbell with a central camera.</description>
+        <imagePath>/images/All/RingGuardX1.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>3</warranty>
+        <manufacturerRebate>20</manufacturerRebate>
+        <quantity>25</quantity>
+    </product>
+    <product>
+        <id>5</id>
+        <name>SlimSecure300</name>
+        <price>129.99</price>
+        <category>Smart Doorbells</category>
+        <description>Minimalist smart doorbell with a slim design.</description>
+        <imagePath>/images/All/SlimSecure300.jpeg</imagePath>
+        <discount>10</discount>
+        <warranty>1</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>35</quantity>
+    </product>
+    <product>
+        <id>6</id>
+        <name>UltraViewCylindro</name>
+        <price>249.99</price>
+        <category>Smart Doorbells</category>
+        <description>Cylindrical design with a modern black and silver combination.</description>
+        <imagePath>/images/All/UltraViewCylindro.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>5</warranty>
+        <manufacturerRebate>25</manufacturerRebate>
+        <quantity>20</quantity>
+    </product>
+    <product>
+        <id>7</id>
+        <name>HomeSafeElite</name>
+        <price>179.99</price>
+        <category>Smart Doorbells</category>
+        <description>Sleek and modern smart doorbell with a rectangular finish.</description>
+        <imagePath>/images/All/HomeSafeElite.jpeg</imagePath>
+        <discount>10</discount>
+        <warranty>2</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>30</quantity>
+    </product>
+
+    <!-- Smart Doorlocks -->
+    <product>
+        <id>8</id>
+        <name>SecureLockPro</name>
+        <price>199.99</price>
+        <category>Smart Doorlocks</category>
+        <description>A modern smart door lock with a sleek rectangular design.</description>
+        <imagePath>/images/All/SecureLockPro.jpeg</imagePath>
+        <discount>5</discount>
+        <warranty>3</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>45</quantity>
+    </product>
+    <product>
+        <id>9</id>
+        <name>TitanGuardTouch</name>
+        <price>229.99</price>
+        <category>Smart Doorlocks</category>
+        <description>A high-tech rectangular smart door lock with a metallic silver finish.</description>
+        <imagePath>/images/All/TitanGuardTouch.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>5</warranty>
+        <manufacturerRebate>15</manufacturerRebate>
+        <quantity>40</quantity>
+    </product>
+    <product>
+        <id>10</id>
+        <name>NeoSecureX1</name>
+        <price>179.99</price>
+        <category>Smart Doorlocks</category>
+        <description>A minimalist smart door lock with a matte black finish.</description>
+        <imagePath>/images/All/NeoSecureX1.jpeg</imagePath>
+        <discount>8</discount>
+        <warranty>2</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>30</quantity>
+    </product>
+    <product>
+        <id>11</id>
+        <name>OptiLockInfinity</name>
+        <price>269.99</price>
+        <category>Smart Doorlocks</category>
+        <description>A sleek smart door lock with a rectangular matte black design.</description>
+        <imagePath>/images/All/OptiLockInfinity.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>4</warranty>
+        <manufacturerRebate>20</manufacturerRebate>
+        <quantity>25</quantity>
+    </product>
+
+    <!-- Smart Speakers -->
+    <product>
+        <id>12</id>
+        <name>EchoBlast360</name>
+        <price>149.99</price>
+        <category>Smart Speakers</category>
+        <description>A modern cylindrical smart speaker with a sleek matte black finish.</description>
+        <imagePath>/images/All/EchoBlast360.jpeg</imagePath>
+        <discount>10</discount>
+        <warranty>3</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>40</quantity>
+    </product>
+    <product>
+        <id>13</id>
+        <name>SoundWaveAura</name>
+        <price>199.99</price>
+        <category>Smart Speakers</category>
+        <description>A futuristic oval-shaped smart speaker with a digital display.</description>
+        <imagePath>/images/All/SoundWaveAura.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>5</warranty>
+        <manufacturerRebate>25</manufacturerRebate>
+        <quantity>30</quantity>
+    </product>
+    <product>
+        <id>14</id>
+        <name>CubeSoundMini</name>
+        <price>129.99</price>
+        <category>Smart Speakers</category>
+        <description>A compact cube-shaped smart speaker with rounded edges.</description>
+        <imagePath>/images/All/CubeSoundMini.jpeg</imagePath>
+        <discount>12</discount>
+        <warranty>2</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>25</quantity>
+    </product>
+    <product>
+        <id>15</id>
+        <name>PulseBeatVertical</name>
+        <price>179.99</price>
+        <category>Smart Speakers</category>
+        <description>A sleek rectangular smart speaker with a vertical design.</description>
+        <imagePath>/images/All/PulseBeatVertical.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>4</warranty>
+        <manufacturerRebate>15</manufacturerRebate>
+        <quantity>20</quantity>
+    </product>
+    <product>
+        <id>16</id>
+        <name>SonicCoreNeo</name>
+        <price>159.99</price>
+        <category>Smart Speakers</category>
+        <description>A cylindrical smart speaker with a fabric exterior.</description>
+        <imagePath>/images/All/SonicCoreNeo.jpeg</imagePath>
+        <discount>5</discount>
+        <warranty>3</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>35</quantity>
+    </product>
+
+    <!-- Smart Lightings -->
+    <product>
+        <id>17</id>
+        <name>LumiGlowPro</name>
+        <price>29.99</price>
+        <category>Smart Lightings</category>
+        <description>A modern cylindrical smart light bulb with a sleek metallic finish.</description>
+        <imagePath>/images/All/LumiGlowPro.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>1</warranty>
+        <manufacturerRebate>5</manufacturerRebate>
+        <quantity>50</quantity>
+    </product>
+    <product>
+        <id>18</id>
+        <name>FlexiLightStrip</name>
+        <price>59.99</price>
+        <category>Smart Lightings</category>
+        <description>A smart light strip with a flexible design.</description>
+        <imagePath>/images/All/FlexiLightStrip.jpeg</imagePath>
+        <discount>12</discount>
+        <warranty>2</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>40</quantity>
+    </product>
+    <product>
+        <id>19</id>
+        <name>HaloSmartCeiling</name>
+        <price>79.99</price>
+        <category>Smart Lightings</category>
+        <description>A smart ceiling light with a circular design.</description>
+        <imagePath>/images/All/HaloSmartCeiling.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>3</warranty>
+        <manufacturerRebate>10</manufacturerRebate>
+        <quantity>35</quantity>
+    </product>
+    <product>
+        <id>20</id>
+        <name>EdgeGlowWall</name>
+        <price>69.99</price>
+        <category>Smart Lightings</category>
+        <description>A futuristic smart wall light with a rectangular design.</description>
+        <imagePath>/images/All/EdgeGlowWall.jpeg</imagePath>
+        <discount>5</discount>
+        <warranty>2</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>30</quantity>
+    </product>
+
+    <!-- Smart Thermostats -->
+    <product>
+        <id>21</id>
+        <name>ClimaGuardX1</name>
+        <price>249.99</price>
+        <category>Smart Thermostats</category>
+        <description>A futuristic smart thermostat with a square design.</description>
+        <imagePath>/images/All/ClimaGuardX1.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>5</warranty>
+        <manufacturerRebate>15</manufacturerRebate>
+        <quantity>40</quantity>
+    </product>
+    <product>
+        <id>22</id>
+        <name>TempSensePro</name>
+        <price>199.99</price>
+        <category>Smart Thermostats</category>
+        <description>A modern smart thermostat with a circular design.</description>
+        <imagePath>/images/All/TempSensePro.jpeg</imagePath>
+        <discount>8</discount>
+        <warranty>3</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>25</quantity>
+    </product>
+    <product>
+        <id>23</id>
+        <name>OvalAirElite</name>
+        <price>179.99</price>
+        <category>Smart Thermostats</category>
+        <description>A smart thermostat with an oval design.</description>
+        <imagePath>/images/All/OvalAirElite.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>4</warranty>
+        <manufacturerRebate>10</manufacturerRebate>
+        <quantity>20</quantity>
+    </product>
+    <product>
+        <id>24</id>
+        <name>EcoControlS2</name>
+        <price>229.99</price>
+        <category>Smart Thermostats</category>
+        <description>A sleek rectangular smart thermostat with a digital display.</description>
+        <imagePath>/images/All/EcoControlS2.jpeg</imagePath>
+        <discount>15</discount>
+        <warranty>5</warranty>
+        <manufacturerRebate>0</manufacturerRebate>
+        <quantity>30</quantity>
+    </product>
+    <!-- <product>
+        <id>25</id>
+        <name>ThermoCoreNeo</name>
+        <price>269.99</price>
+        <category>Smart Thermostats</category>
+        <description>A premium smart thermostat with a circular digital display.</description>
+        <imagePath>/images/All/ThermoCoreNeo.jpeg</imagePath>
+        <discount>0</discount>
+        <warranty>5</warranty>
+        <manufacturerRebate>20</manufacturerRebate>
+        <quantity>25</quantity>
+    </product> -->
+</products>
